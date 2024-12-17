@@ -1,0 +1,244 @@
+
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+    color: #ffffff;
+}
+    
+/* #region Header */
+.header-page {
+
+}
+
+.nav-page {
+
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-style {
+    color: #2e2f42;
+}
+
+.nav-list {
+
+}
+
+.nav-item {
+
+}
+
+.nav-item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus {
+    color: #404bbf;
+}
+
+.head-addr {
+    font-style: normal;
+}
+
+.addr-list {}
+
+.addr-item {}
+
+.addr-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.addr-link:hover,
+.addr-link:focus {
+    color: #404bbf;
+}
+
+/* #endregion*/
+
+/* #region section Our Factors */
+
+.factors {}
+
+.factors-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.factors-list {}
+
+.factors-item {}
+
+.factors-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.factors-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endregion*/
+
+/* #region section Solutions */
+
+.solution {
+background-color: #2e2f42;
+}
+
+.solution-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+}
+
+.solution-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #4d5ae5;
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+    background-color: #404bbf;
+}
+
+/* #endregion*/
+
+/* #region section Ourteam */
+
+.ourteam {
+    background-color: #f4f4fd;
+}
+
+.ourteam-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.ourteam-list {}
+
+.ourteam-item {}
+
+.ourteam-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.ourteam-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endregion*/
+
+/* #region section Ourprtf */
+
+.ourprtf {}
+
+.ourprtf-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.ourprtf-list {}
+
+.ourprtf-item {}
+
+.ourprtf-cardname {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.ourprtf-cardtext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* #endregion*/
+
+/* #region section Footer */
+
+.footer {
+    background-color: #2e2f42;;
+}
+
+.logo {}
+
+footer .logo-style {
+    color: #ffffff;
+}
+
+.footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
+/* #endregion*/
+
