@@ -1,9 +1,9 @@
 
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #000000;
+    color: #434455;
     background-color: #ffffff;
 }
 
@@ -33,7 +33,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -87,6 +87,37 @@ button {
 
 /* #endregion*/
 
+/* #region section Solutions */
+
+.solution {
+background-color: #2e2f42;
+}
+
+.solution-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ffffff;
+}
+
+.solution-btn {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #4d5ae5;
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+    background-color: #404bbf;
+}
+
+/* #endregion*/
+
 /* #region section Our Factors */
 
 .factors {}
@@ -121,35 +152,6 @@ button {
 
 /* #endregion*/
 
-/* #region section Solutions */
-
-.solution {
-background-color: #2e2f42;
-}
-
-.solution-title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #ffffff;
-}
-
-.solution-btn {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background-color: #4d5ae5;
-}
-
-.solution-btn:hover,
-.solution-btn:focus {
-    background-color: #404bbf;
-}
-
-/* #endregion*/
-
 /* #region section Ourteam */
 
 .ourteam {
@@ -161,12 +163,16 @@ background-color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
 .ourteam-list {}
 
-.ourteam-item {}
+.ourteam-item {
+    background-color: #ffffff;
+}
 
 .ourteam-name {
     font-weight: 500;
@@ -193,8 +199,10 @@ background-color: #2e2f42;
 .ourprtf-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -229,7 +237,7 @@ background-color: #2e2f42;
 .logo {}
 
 footer .logo-style {
-    color: #ffffff;
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -241,4 +249,3 @@ footer .logo-style {
 }
 
 /* #endregion*/
-
