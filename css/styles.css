@@ -64,7 +64,7 @@ button {
     
 /* #region Header */
 .header-page {
-
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-page .container {
@@ -178,6 +178,7 @@ padding: 188px 0;
         border-radius: 4px;
         padding: 16px 32px;
         border: none;
+        min-width: 169px;
 }
 
 .solution-btn:hover,
@@ -264,7 +265,7 @@ padding: 188px 0;
 }
 
 .ourteam-item-container {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .ourteam-name {
@@ -273,6 +274,7 @@ padding: 188px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .ourteam-text {
@@ -289,6 +291,8 @@ padding: 188px 0;
 
 .ourprtf {
     margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px
 }
 
 .ourprtf-title {
@@ -317,6 +321,7 @@ padding: 188px 0;
 .ourprtf-item-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .ourprtf-cardname {
@@ -325,6 +330,7 @@ padding: 188px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .ourprtf-cardtext {
